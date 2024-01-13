@@ -3,7 +3,7 @@ import { Fragment } from "react"
 const Searchbox = () => {
     return (
         <Fragment>
-            <section className="py-24 lg:pt-[120px] lg:pb-28">
+            <section className="pt-24 lg:pt-[120px]">
             <div className="container" >
             <div className="mb-16 flex flex-col items-center">
                 <h2 className="text-3xl lg:text-[40px] mb-9 font-bold">
