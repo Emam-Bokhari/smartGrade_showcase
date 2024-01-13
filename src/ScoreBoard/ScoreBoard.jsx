@@ -1,12 +1,12 @@
 import { Fragment } from "react"
 import Searchbox from "./Searchbox"
-import ScoresTableContainer from "./ScoresTable/ScoresTableContainer"
+import ScoresTable from "./ScoresTable"
 
 const ScoreBoard = () => {
     return (
         <Fragment>
             <Searchbox />
-            <ScoresTableContainer />
+            <ScoresTable />
         </Fragment>
     )
 }
