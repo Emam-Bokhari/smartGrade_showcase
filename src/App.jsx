@@ -1,11 +1,12 @@
 import { Fragment } from "react"
+import Navbar from "./Navbar"
+import "./styles/output.css"
 
 
 const App=()=>{
     return(
         <Fragment>
-            <h2>Heading tag</h2>
-            <p>check branch</p>
+            <Navbar/>
         </Fragment>
     )
 }
