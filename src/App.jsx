@@ -3,7 +3,7 @@ import "./styles/output.css"
 import Navbar from "./Navbar"
 import HeroSection from "./HeroSection"
 import ScoreBoard from "./ScoreBoard/ScoreBoard"
-import Footer from "./Footer/Footer"
+import Footer from "./Footer"
 
 
 const App = () => {
