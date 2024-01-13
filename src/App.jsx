@@ -1,7 +1,8 @@
 import { Fragment } from "react"
-import Navbar from "./Navbar"
 import "./styles/output.css"
+import Navbar from "./Navbar"
 import HeroSection from "./HeroSection"
+import ScoreBoard from "./ScoreBoard/ScoreBoard"
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
         <Fragment>
             <Navbar />
             <HeroSection />
+            <ScoreBoard />
         </Fragment>
     )
 }
