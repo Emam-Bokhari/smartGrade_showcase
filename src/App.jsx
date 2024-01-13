@@ -1,12 +1,14 @@
 import { Fragment } from "react"
 import Navbar from "./Navbar"
 import "./styles/output.css"
+import HeroSection from "./HeroSection"
 
 
-const App=()=>{
-    return(
+const App = () => {
+    return (
         <Fragment>
-            <Navbar/>
+            <Navbar />
+            <HeroSection />
         </Fragment>
     )
 }

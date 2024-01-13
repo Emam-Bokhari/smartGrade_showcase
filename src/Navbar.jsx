@@ -1,5 +1,5 @@
-import { Fragment } from "react"
 import lwsLogo from "./assets/lws-logo-en.svg"
+import { Fragment } from "react"
 
 const Navbar = () => {
     return (
@@ -22,7 +22,6 @@ const Navbar = () => {
                     >Get Admission</a>
             </div>
         </nav>
-
 
         </Fragment>
     )
